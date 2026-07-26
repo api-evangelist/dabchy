@@ -1,7 +1,25 @@
 aid: dabchy
 name: Dabchy
-description: Dabchy is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Dabchy is a Tunisia-based online marketplace for buying and selling pre-owned and new
+  lifestyle goods including fashion and clothing, accessories, home decor, sporting equipment, and
+  books. Serving the Tunisian market in French (fr_TN), it lets individuals list their own items and
+  discover deals from other sellers, positioning itself as a simple, fast, and secure platform for
+  giving everyday objects a second life. Backed by 500 Global. As of this enrichment pass Dabchy
+  publishes no public developer API, API documentation, developer portal, or machine-readable
+  discovery surface; api.dabchy.com is a locked-down (HTTP 403) application backend and the public
+  site is a client-rendered single-page app with no exposed spec.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.dabchy.com/assets/icons/icon-512.webp
 url: https://raw.githubusercontent.com/api-evangelist/dabchy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Marketplace
+- E-commerce
+- Fashion
+- Second-hand
+- Resale
+- Tunisia
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://dabchy.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
