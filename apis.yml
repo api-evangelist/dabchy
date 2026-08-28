@@ -8,6 +8,17 @@ description: Dabchy is a Tunisia-based online marketplace for buying and selling
   publishes no public developer API, API documentation, developer portal, or machine-readable
   discovery surface; api.dabchy.com is a locked-down (HTTP 403) application backend and the public
   site is a client-rendered single-page app with no exposed spec.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
